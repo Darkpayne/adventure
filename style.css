@@ -1,0 +1,95 @@
+:root {
+  --green: #14635f;
+  --white: #effbff;
+}
+#home {
+  background-image: url("./assets/adventure\ home\ page.jpg");
+  /* background-color: #cccccc; */
+  height: 600px;
+  background-position: initial;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.nav-text {
+  color: #000;
+  font-size: larger;
+}
+.circle {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+.bgg {
+  background-color: var(--white);
+}
+.about {
+  border-radius: 30px;
+}
+.shad {
+  box-shadow: 0px 10px 40px 10px;
+}
+.rd {
+  border-radius: 15px;
+}
+/* javascript */
+.shads {
+  box-shadow: 0px 1px 25px 0px;
+  transition: 2s ease-in-out;
+}
+.shadow{
+    transition: 2s ease-in-out;
+}
+
+/* #card {
+  position: relative;
+  top: 70px;
+  height: 160;
+
+}
+#imgg{
+    position: absolute;
+    height: 50%;
+    top: 0;
+    right: 12%;
+    transform: translateY(-50%);
+} */
+#img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+}
+.backgg {
+  position: relative;
+  background-image: url(./assets/footer\ img.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  z-index: 0;
+}
+.i {
+  padding-right: 140px;
+  padding-left: 140px;
+}
+.ss {
+  opacity: 1;
+}
+.white {
+  color: #effbff;
+}
+.backggg {
+  background-color: #14635f;
+}
+.sm {
+  font-size: 14px;
+}
+.remove {
+  display: none;
+}
+.strike {
+  text-decoration: line-through;
+  font-size: 14px;
+  font-style: italic;
+  
+}
+
+
